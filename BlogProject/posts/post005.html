@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INDIE DIVE</title>
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+
+<body onload="displayComments('comments005')">
+  <div class="sidebar">
+    <h1 class="web-title">INDIE DIVE</h1>
+    <hr class="rounded">
+    <nav >
+      <ul class="sidebar-buttons" >
+        <li><a href="../pages/index.html" class="list-link"><img src="../assets/images/iconHome.png" alt="" class="icons"> Home</a></li>
+        <li><a href="../pages/engine.html" class="list-link" ><img src="../assets/images/iconEngines.png" alt="" class="icons">Engine News</a></li>
+        <li><a href="../pages/community.html" class="list-link" ><img src="../assets/images/iconCommunity.png" alt="" class="icons">Community News</a></li>
+        <li><a href="../pages/release.html" class="list-link"><img src="../assets/images/iconReleases.png" alt="" class="icons">Indie Release</a></li>
+        <li><a href="../pages/info.html" class="list-link">
+           <img src="../assets/images/iconInfo.png" alt="" class="icons">
+            <p>Info</p>
+         </a>
+       </li>
+      </ul>
+    </nav>
+  </div>
+
+<!--BLOGS-->
+  <section class="blog-post">
+    <div class="blog-post-container">
+      <div class="blog-post-data">
+        <h2 class="blog-post-title">10 Tips For Level Design</h2>
+        <div class="article-date">4.12.24</div>
+        <img src="../assets/images/img-2.jpg" alt="">
+      </div>
+      <div class="container">
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis eius possimus hic eligendi distinctio rerum incidunt, esse quasi eum molestiae ducimus ipsam quae, aliquid ullam placeat dolorum nulla vero. Quam? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente repellat consequatur culpa, repudiandae aut dolores iusto. Rem natus soluta, dolores, ad deleniti, aut dolorem corrupti quasi amet unde delectus hic?
+        </p>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis eius possimus hic eligendi distinctio rerum incidunt, esse quasi eum molestiae ducimus ipsam quae, aliquid ullam placeat dolorum nulla vero. Quam? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero quod necessitatibus, aspernatur pariatur asperiores earum quas adipisci veritatis quidem facilis! Nihil veniam quaerat nulla possimus, asperiores vero voluptatum placeat. Eveniet!
+        </p>
+        <blockquote class="quote">
+          <p><span><i class="ri-double-quotes-l"></i></span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia voluptates, laboriosam voluptatum quos non consequuntur nesciunt necessitatibus tempora quod inventore corporis rem nihil itaque, at provident minus aliquam veritatis. Labore?  <span><i class="ri-double-quotes-r"></i></span></p>
+        </blockquote>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis eius possimus hic eligendi distinctio rerum incidunt, esse quasi eum molestiae ducimus ipsam quae, aliquid ullam placeat dolorum nulla vero. Quam? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero quod necessitatibus, aspernatur pariatur asperiores earum quas adipisci veritatis quidem facilis! Nihil veniam quaerat nulla possimus, asperiores vero voluptatum placeat. Eveniet!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!--COMMENTS-->
+  <hr class="rounded">
+  <section class= comment-section>
+    <div class="comment-form">
+      <input type="text" id="username" placeholder="Type your name...">
+      <textarea id="comment" placeholder="Type your comment..."></textarea>
+      <button onclick="addComment('comments005')">Submit Comment</button>
+    </div>
+
+    <div class="comments">
+      <h2>Comments</h2>
+      <ul id="comment-list">
+        <!-- Comments will be dynamically added here -->
+      </ul>
+    </div>
+  </section>
+
+
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>
